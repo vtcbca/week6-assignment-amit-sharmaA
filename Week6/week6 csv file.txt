@@ -39,7 +39,7 @@ def calculate_grade(marks):
 
 # Read result.csv file and Print Total Marks and Grade of each student. Also Append Total Marks and Grade column into result.csv file.
 
-	with open('E:\\22bca20\\python\\result.csv', 'r') as file:
+	with open('E:\\22bca02\\python\\result.csv', 'r') as file:
     	reader = csv.reader(file)
     	next(reader)  # Skip header row
     	for row in reader:
