@@ -32,14 +32,14 @@ def calculate_grade(marks):
 
 # Dump table into csv file "result.csv".
 
-	with open('e:\\22bca80\\python\\result.csv', 'w', newline='') as file:
+	with open('E:\\22bca02\\python\\result.csv', 'w', newline='') as file:
    	writer = csv.writer(file)
     	writer.writerow(['Student ID', 'Student Name', 'Subject 1', 'Subject 2', 'Subject 3', 'Subject 4', 'Subject 5', 'Total Marks', 'Grade'])
     	writer.writerows(result_table)
 
 # Read result.csv file and Print Total Marks and Grade of each student. Also Append Total Marks and Grade column into result.csv file.
 
-	with open('e:\\22bca80\\python\\result.csv', 'r') as file:
+	with open('E:\\22bca20\\python\\result.csv', 'r') as file:
     	reader = csv.reader(file)
     	next(reader)  # Skip header row
     	for row in reader:
